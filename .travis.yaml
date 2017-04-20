@@ -5,4 +5,5 @@ matrix:
     - os: osx
       osx_image: xcode8
 script:
-- echo "Hello world"
+- nix-env -i hello
+- hello
