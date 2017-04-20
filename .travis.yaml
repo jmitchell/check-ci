@@ -1,0 +1,8 @@
+language: nix
+sudo: true
+matrix:
+  include:
+    - os: osx
+      osx_image: xcode8
+script:
+- echo "Hello world"
