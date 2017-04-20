@@ -1,9 +1,8 @@
 language: nix
 sudo: true
-matrix:
-  include:
-    - os: osx
-      osx_image: xcode8
+os:
+- linux
+- osx
 script:
 - nix-env -i hello
 - hello
